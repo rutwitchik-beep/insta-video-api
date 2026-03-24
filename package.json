@@ -1,0 +1,12 @@
+{
+  "name": "insta-video-api",
+  "version": "1.0.0",
+  "description": "Instagram Video Downloader API for Vercel",
+  "main": "api/video.js",
+  "scripts": {
+    "start": "node api/video.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

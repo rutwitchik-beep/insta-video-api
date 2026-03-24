@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "functions": {
+    "api/video.js": {
+      "maxDuration": 30
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/video",
+      "dest": "/api/video.js"
+    },
+    {
+      "src": "/",
+      "dest": "/api/video.js"
+    }
+  ]
+}
